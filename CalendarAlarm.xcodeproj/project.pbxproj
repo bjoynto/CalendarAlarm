@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2375177E23BD915F00D05197 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2375177C23BD912100D05197 /* EarlGrey.framework */; };
+		2375178323BD91DB00D05197 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2375177C23BD912100D05197 /* EarlGrey.framework */; };
+		2375178623BD91F400D05197 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2375177C23BD912100D05197 /* EarlGrey.framework */; };
+		2375178823BDA31C00D05197 /* EarlGrey.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2375177C23BD912100D05197 /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2375178A23BDA3D100D05197 /* CalAlarmLaunchScreenEarlGreyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2375178923BDA3D100D05197 /* CalAlarmLaunchScreenEarlGreyTest.m */; };
 		239690CE23BAE98400DA78A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 239690CD23BAE98400DA78A5 /* AppDelegate.m */; };
 		239690D123BAE98400DA78A5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 239690D023BAE98400DA78A5 /* SceneDelegate.m */; };
 		239690D423BAE98400DA78A5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239690D323BAE98400DA78A5 /* MasterViewController.m */; };
@@ -22,6 +27,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2375177423BD8FE600D05197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2375176F23BD8FE600D05197 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD1000E91C5B466F00B2DB0A;
+			remoteInfo = EarlGrey;
+		};
+		2375177B23BD912100D05197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2375177623BD912100D05197 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD1000E91C5B466F00B2DB0A;
+			remoteInfo = EarlGrey;
+		};
+		2375177F23BD917900D05197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2375177623BD912100D05197 /* EarlGrey.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1000E81C5B466F00B2DB0A;
+			remoteInfo = EarlGrey;
+		};
+		2375178123BD91CE00D05197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2375177623BD912100D05197 /* EarlGrey.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1000E81C5B466F00B2DB0A;
+			remoteInfo = EarlGrey;
+		};
+		2375178423BD91EC00D05197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2375177623BD912100D05197 /* EarlGrey.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1000E81C5B466F00B2DB0A;
+			remoteInfo = EarlGrey;
+		};
 		239690E823BAE98500DA78A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 239690C123BAE98400DA78A5 /* Project object */;
@@ -38,7 +78,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2375178723BDA2CB00D05197 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/..";
+			dstSubfolderSpec = 0;
+			files = (
+				2375178823BDA31C00D05197 /* EarlGrey.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2375176F23BD8FE600D05197 /* EarlGrey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EarlGrey.xcodeproj; path = "../../../Downloads/EarlGrey-1.16.0/EarlGrey.xcodeproj"; sourceTree = "<group>"; };
+		2375177623BD912100D05197 /* EarlGrey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EarlGrey.xcodeproj; path = "../../Downloads/EarlGrey-1.16.0/EarlGrey.xcodeproj"; sourceTree = "<group>"; };
+		2375178923BDA3D100D05197 /* CalAlarmLaunchScreenEarlGreyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalAlarmLaunchScreenEarlGreyTest.m; sourceTree = "<group>"; };
 		239690C923BAE98400DA78A5 /* CalendarAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		239690CC23BAE98400DA78A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		239690CD23BAE98400DA78A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2375177E23BD915F00D05197 /* EarlGrey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2375178323BD91DB00D05197 /* EarlGrey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,20 +141,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2375178623BD91F400D05197 /* EarlGrey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2375177023BD8FE600D05197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2375177523BD8FE600D05197 /* EarlGrey.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2375177723BD912100D05197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2375177C23BD912100D05197 /* EarlGrey.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2375177D23BD915F00D05197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		239690C023BAE98400DA78A5 = {
 			isa = PBXGroup;
 			children = (
+				2375178923BDA3D100D05197 /* CalAlarmLaunchScreenEarlGreyTest.m */,
+				2375177623BD912100D05197 /* EarlGrey.xcodeproj */,
 				2396910A23BB181E00DA78A5 /* .gitignore */,
 				239690CB23BAE98400DA78A5 /* CalendarAlarm */,
 				239690EA23BAE98500DA78A5 /* CalendarAlarmTests */,
 				239690F523BAE98500DA78A5 /* CalendarAlarmUITests */,
 				239690CA23BAE98400DA78A5 /* Products */,
+				2375177D23BD915F00D05197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +198,7 @@
 		239690CB23BAE98400DA78A5 /* CalendarAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				2375176F23BD8FE600D05197 /* EarlGrey.xcodeproj */,
 				239690CC23BAE98400DA78A5 /* AppDelegate.h */,
 				239690CD23BAE98400DA78A5 /* AppDelegate.m */,
 				239690CF23BAE98400DA78A5 /* SceneDelegate.h */,
@@ -164,6 +250,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2375178023BD917900D05197 /* PBXTargetDependency */,
 			);
 			name = CalendarAlarm;
 			productName = CalendarAlarm;
@@ -177,10 +264,12 @@
 				239690E323BAE98500DA78A5 /* Sources */,
 				239690E423BAE98500DA78A5 /* Frameworks */,
 				239690E523BAE98500DA78A5 /* Resources */,
+				2375178723BDA2CB00D05197 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2375178223BD91CE00D05197 /* PBXTargetDependency */,
 				239690E923BAE98500DA78A5 /* PBXTargetDependency */,
 			);
 			name = CalendarAlarmTests;
@@ -199,6 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2375178523BD91EC00D05197 /* PBXTargetDependency */,
 				239690F423BAE98500DA78A5 /* PBXTargetDependency */,
 			);
 			name = CalendarAlarmUITests;
@@ -239,6 +329,16 @@
 			mainGroup = 239690C023BAE98400DA78A5;
 			productRefGroup = 239690CA23BAE98400DA78A5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2375177723BD912100D05197 /* Products */;
+					ProjectRef = 2375177623BD912100D05197 /* EarlGrey.xcodeproj */;
+				},
+				{
+					ProductGroup = 2375177023BD8FE600D05197 /* Products */;
+					ProjectRef = 2375176F23BD8FE600D05197 /* EarlGrey.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				239690C823BAE98400DA78A5 /* CalendarAlarm */,
@@ -247,6 +347,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2375177523BD8FE600D05197 /* EarlGrey.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EarlGrey.framework;
+			remoteRef = 2375177423BD8FE600D05197 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2375177C23BD912100D05197 /* EarlGrey.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EarlGrey.framework;
+			remoteRef = 2375177B23BD912100D05197 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		239690C723BAE98400DA78A5 /* Resources */ = {
@@ -294,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2375178A23BDA3D100D05197 /* CalAlarmLaunchScreenEarlGreyTest.m in Sources */,
 				239690EC23BAE98500DA78A5 /* CalendarAlarmTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +427,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2375178023BD917900D05197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EarlGrey;
+			targetProxy = 2375177F23BD917900D05197 /* PBXContainerItemProxy */;
+		};
+		2375178223BD91CE00D05197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EarlGrey;
+			targetProxy = 2375178123BD91CE00D05197 /* PBXContainerItemProxy */;
+		};
+		2375178523BD91EC00D05197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EarlGrey;
+			targetProxy = 2375178423BD91EC00D05197 /* PBXContainerItemProxy */;
+		};
 		239690E923BAE98500DA78A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 239690C823BAE98400DA78A5 /* CalendarAlarm */;
